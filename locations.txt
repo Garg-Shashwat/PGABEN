@@ -1,2 +1,2 @@
-1 = D:\Games\Crysis 2\bin32\Crysis2.exe
-2 = C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe
+C:/Program Files/Google/Chrome/Application/chrome.exe
+C:/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe

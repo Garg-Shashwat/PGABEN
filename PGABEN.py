@@ -6,6 +6,7 @@ def open_the_process(path):
     time = float(input('Enter time in minutes\n'))
     print(path)
     time = time * 60
+    print("Starting for ",time,"seconds")
     subprocess.run(path,timeout=int(time))
 
 def startup():
@@ -20,11 +21,11 @@ def startup():
 games_list = {}
 startup()
 print("NOTE: THIS APPLICATION ONLY RUNS .EXE FILES")
-print("which game do you wish to play?")
+print("which Application do you wish to run?")
 for key in games_list:
-    print(key,':',games_list[key],end = '')
+    print(key,':',games_list[key],end = '\n')
 
-index = int(input("\nEnter the index of the game you wish to play\n"))
+index = int(input("\nEnter the index of the application you wish to run\n"))
 try:
     print(games_list[index])
 except:
