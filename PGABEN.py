@@ -16,9 +16,9 @@ def open_the_process(path):
     need to be executed from the directory where they are installed
     for no issues. (Example: Skyrim)
     '''
-    time = float(input('Enter time in minutes\n'))
+    time = int(input('Enter time in minutes\n'))
     print(path)
-    time = time * 60
+    time *= 60 # time = time * 60
     '''
     If the application is to be run for less than 2 minutes, then there is no need
     for the speaking funcitonality to work. Therefore the below code ensures that
